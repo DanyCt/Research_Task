@@ -17,7 +17,12 @@ public class HelloApplication extends Application {
         stage.show();
     }
 
-    public static void main(String[] args) {
-        launch();
+    public static void main(String[] args){
+
+        Airplane Task = new Airplane();
+
+        Task.getMaterial();
+        Task.setMaterial();
+        Task.setColor();
     }
 }
